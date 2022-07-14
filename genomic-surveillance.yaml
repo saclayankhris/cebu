@@ -58,7 +58,7 @@ subsampling:
       # This value sets a hard upper limit on how many strains
       # make it into the analysis. Tune this value, based on
       # your needs for the resulting tree.
-      max_sequences: 5
+      max_sequences: 500
       # These group-by columns attempt to evenly sample across
       # US states by year and month. Sequences in each group
       # of state, year, and month are prioritized by genetic
@@ -77,7 +77,7 @@ subsampling:
       # As with the contextual data from the USA above, tune
       # this value to get a reasonable number of strains in
       # your build.
-      max_sequences: 5
+      max_sequences: 500
       priorities:
         type: proximity
         focus: custom_sample
